@@ -114,11 +114,11 @@ background-position: right;
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        height: 120vh;
             display: flex;
             width: 100%;
-            justify-content: center;
-            align-items: center;
+          
+    
             padding: 200px 250px;
             background-image: url(Images/bg-intro-mobile.png);
     }
