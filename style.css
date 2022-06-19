@@ -108,30 +108,32 @@ background-position: right;
 
 
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:750px) {
     main{
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
-        height: 120vh;
-            display: flex;
-            width: 100%;
-          
-    
-            padding: 200px 250px;
-            background-image: url(Images/bg-intro-mobile.png);
-    }
-}
-
-@media screen and(max-width: 1440px) {
-    main{
-        display: flex;
+        height: 100%;
+        width: 90%;
+        padding: 20px 5px 20px 5px;
         background-image: url(Images/bg-intro-mobile.png);
-        justify-content: center;
-
+        background-size:cover;
+    }
+    
+    .leftdiv{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    
+}
+    form{
+    width: 290px;
+    margin-top: 20px;
+    
     }
 }
+
+
 
 
 
