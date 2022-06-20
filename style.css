@@ -104,6 +104,7 @@ input:invalid:focus{
 background-image: url(Images/icon-error.svg);
 background-repeat:no-repeat ;
 background-position: right;
+border: thin solid red;
 }
 
 
@@ -114,8 +115,8 @@ background-position: right;
         align-items: center;
         flex-direction: column;
         height: 100%;
-        width: 90%;
-        padding: 20px 5px 20px 5px;
+        width: 100%;
+        padding: 20px 10px 20px 10px;
         background-image: url(Images/bg-intro-mobile.png);
         background-size:cover;
     }
