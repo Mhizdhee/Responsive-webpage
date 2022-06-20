@@ -105,6 +105,8 @@ background-image: url(Images/icon-error.svg);
 background-repeat:no-repeat ;
 background-position: right;
 border: thin solid red;
+background-position-x: 98%;
+background-position-y: 50%;
 }
 
 
